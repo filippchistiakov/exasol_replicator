@@ -1,0 +1,4 @@
+SELECT TRUE
+FROM SYS.EXA_ALL_TABLES
+WHERE TABLE_SCHEMA = '$target_schema'
+AND TABLE_NAME = '$target_table_name'
